@@ -34,12 +34,12 @@
       }
 
       .container {
-        padding: 5vw;
+        padding: 2vw 5vw 3vw;
         border-radius: 2vw;
         box-shadow: -0.2vw -0.2vw 1.3vw rgba(255, 255, 255, 0.1),
-          0.2vw 0.2vw 1.3vw rgba(0, 0, 0, 0.35),
+          0.2vw 0.2vw 1.3vw rgba(0, 0, 0, 0.5),
           inset -0.2vw -0.2vw 1.3vw rgba(255, 255, 255, 0.1),
-          inset 0.2vw 0.2vw 1.3vw rgba(0, 0, 0, 0.35);
+          inset 0.2vw 0.2vw 1.3vw rgba(0, 0, 0, 0.5);
         border: 1vw solid #223243;
       }
       .container .form {
@@ -62,7 +62,9 @@
       .container .form h2 {
         color: #fff;
         font-weight: 600;
+        font-size: 3vw;
         letter-spacing: 0.1vw;
+        color: #00dfc4;
       }
       .container .form .inputBox {
         position: relative;
@@ -71,6 +73,8 @@
       .container .form .inputBox input {
         padding: 1vw 0.7vw 1vw 4vw;
         border: none;
+        border: 0.15vw solid #223243;
+
         width: 100%;
         background: #223243;
         border: 0.1vw solid rgba(0, 0, 0, 0.1);
@@ -79,7 +83,7 @@
         border-radius: 2vw;
         font-size: 1.2vw;
         box-shadow: -0.2vw -0.2vw 1.3vw rgba(255, 255, 255, 0.1),
-          0.2vw 0.2vw 1.3vw rgba(0, 0, 0, 0.35);
+          0.2vw 0.2vw 1.3vw rgba(0, 0, 0, 0.5);
         transition: 0.5s;
         outline: none;
       }
@@ -186,7 +190,7 @@
           <span>password</span>
         </div>
         <div class="inputBox">
-          <input type="submit" value="Create Account" />
+          <input type="submit" value="Login" />
         </div>
         <p>Not registered? <a href="#" class="create">Create an account</a></p>
       </div>
